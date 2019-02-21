@@ -3,8 +3,13 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return (
-            <header>React Track Runner</header>
-        )}
+            <header>
+                <h1>
+                React Track Runner
+                </h1>
+            </header>
+        )
+    }
 }
 
 export default Header;
